@@ -1,3 +1,10 @@
+window.pageDataLayer={
+  'event': 'pageView',
+  'viewName': "home"
+}
+
+
+
 import React from 'react'
 import InfoSection from "../../compoents/InfoSection/InfoSection"
 import Pricing from '../../compoents/Pricing/Pricing';
