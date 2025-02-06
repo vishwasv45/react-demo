@@ -26,7 +26,20 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
-    <script src="https://assets.adobedtm.com/01296dd00565/0b76e58c63b0/launch-3bd219c0ace2-development.min.js" async></script>    
+    <script src="https://assets.adobedtm.com/01296dd00565/0b76e58c63b0/launch-3bd219c0ace2-development.min.js" async></script>
+    <script>
+      window.dataLayer={
+       
+        event: 'pageView',
+        pageView: viewName,
+        userId: '12345',
+        userType: 'guest',
+        pageCategory: 'home',
+        pageTitle: document.title,
+        timestamp: new Date().toString(),
+        pageUrl: window.location.href,
+      }
+    </script>    
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
